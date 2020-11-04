@@ -1,4 +1,6 @@
-baseURL: https://converttexttospeechapp.github.io/website/
+#baseURL = "/"
+# https://gitlab.com/pages/hugo/-/issues/7#note_366975689
+relativeURLs: true
 languageCode: en-us
 defaultContentLanguage: en
 title: Cayman
@@ -23,15 +25,15 @@ permalinks:
 
 params:
   # Header text, can be markdown
-  project_name: Cayman Hugo Theme
-  project_tagline: A clean, responsive Hugo theme, ported from the original Jekyll Cayman theme
+  project_name: Convert Text to Speech
+  project_tagline: App to convert convert text to speech in Windows
 
   # Date format for post list and single pages
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: 2006-01-02
 
   # Footer text, can be markdown
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
+  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme).
 
   # If true, the CSS/JS for Katex math typesetting are enabled
   katex: true
@@ -62,15 +64,12 @@ params:
 
 menu:
   nav:
-    - name: Blog
+    - name: Home
       url: /
       weight: 1
-    - name: Tags
-      url: /tags/
+    - name: How to download speech voice
+      url: /how-to-download-speech/
       weight: 2
-    - name: About
-      url: /about/
+    - name: Privacy Policy
+      url: /privacy-policy/
       weight: 3
-    - name: RSS
-      url: /index.xml
-      weight: 4

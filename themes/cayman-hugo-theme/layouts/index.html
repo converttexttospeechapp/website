@@ -1,6 +1,7 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<ul>
+{{ .Content }}
+<!-- <ul>
 {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
 {{ range $pages.ByPublishDate.Reverse }}
   <li>
@@ -11,5 +12,5 @@
     </a>
   </li>        
 {{ end }}
-</ul>
+</ul> -->
 {{ end }}
